@@ -5,5 +5,6 @@ public class Main {
     String gender = "M";
     boolean isHappy = true;
     System.out.println("Hello my name is: " + name + " " + "my age " + age);
+    System.out.println("Gender: " + gender);
   }
 }
