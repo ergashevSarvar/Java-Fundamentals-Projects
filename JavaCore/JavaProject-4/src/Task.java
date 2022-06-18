@@ -5,11 +5,11 @@ public class Task {
 
     public static void main(String[] args) {
         //TASK MIN va MAX number sortirovka qiish qilish. ORDER ASC
-        System.out.println("Enter num1: ");
+        System.out.print("Enter num1: ");
         int num1 = scanner.nextInt();
-        System.out.println("Enter num2: ");
+        System.out.print("Enter num2: ");
         int num2 = scanner.nextInt();
-        System.out.println("Enter num3: ");
+        System.out.print("Enter num3: ");
         int num3 = scanner.nextInt();
 
         int min = num1;
@@ -29,7 +29,7 @@ public class Task {
         System.out.println("Min number: " + min);
         System.out.println("Middle number: " + middleNumber);
         System.out.println("Max number: " + max);
-        System.out.println("Sorted numbers: " + min + " , " + middleNumber + " , " + max);
+        System.out.println("Sorted numbers: " + min + ", " + middleNumber + ", " + max);
         System.out.println("--------------------------------------------------");
 
     }
