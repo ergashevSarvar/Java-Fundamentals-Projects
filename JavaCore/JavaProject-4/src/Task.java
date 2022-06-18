@@ -21,9 +21,9 @@ public class Task {
         if (max < num3) max = num3;
 
         int middleNumber = 0;
-        if (num1 < num2 && num2 < num3) middleNumber = num2;
-        if (num2 < num1 && num1 < num3) middleNumber = num1;
-
+        if (min < num1 && num1 < max) middleNumber = num1;
+        if (min < num2 && num2 < max) middleNumber = num2;
+        if (min < num3 && num3 < max) middleNumber = num3;
 
         System.out.println("--------------------------------------------------");
         System.out.println("Min number: " + min);
